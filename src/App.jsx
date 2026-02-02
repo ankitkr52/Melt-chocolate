@@ -1,13 +1,14 @@
 import React from 'react'
 import SmoothScroll from './SmootScroll'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <>
-      <SmoothScroll/>
-      <h1 className='bg-red-400 font-bold'>welcome</h1>
-     
-      <SmoothScroll/>
+      <SmoothScroll />
+      <Header />
+
+      <SmoothScroll />
     </>
   )
 }
