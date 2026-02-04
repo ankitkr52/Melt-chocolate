@@ -5,6 +5,7 @@ import Hero from './section/Hero'
 import Taste from './section/Taste'
 import Quality from './section/Quality'
 import Parallax from './section/Parallax'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Taste/>
       <Quality/>
       <Parallax/>
+      <Footer/>
       <SmoothScroll />
     </>
   )
