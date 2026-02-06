@@ -20,7 +20,7 @@ const Header = () => {
                     <nav>
                         <ul className='flex items-center gap-9 font-medium tracking-tight'>
                             <li>
-                                <a href="">Flavors</a>
+                                <a href="hero">Flavors</a>
                             </li>
                             <li>
                                 <a href="">Our Story</a>
