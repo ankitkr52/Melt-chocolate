@@ -66,7 +66,7 @@ const Hero = () => {
   });
 
   return (
-    <section id='hero' className='choco-section inner-container'>
+    <section className='choco-section inner-container'>
       <HeroChocolates activeFlavor={activeFlavor} />
       <FlavorCards setActiveFlavor={setActiveFlavor} />
     </section>
