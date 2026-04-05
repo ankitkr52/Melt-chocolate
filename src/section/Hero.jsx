@@ -43,7 +43,8 @@ const Hero = () => {
       },
     });
 
-    pairs.forEach(({ choco, card }) => {
+    pairs.forEach(({ choco, card }) => { 
+      
       tl.to(
         choco,
         {
