@@ -33,14 +33,14 @@ const Hero = () => {
       },
     ];
 
-    // const tl = gsap.timeline({
-    //   scrollTrigger: {
-    //     trigger: ".choco-section",
-    //     start: "top top",
-    //     end: "74% center",
-    //     scrub: true,
-    //     invalidateOnRefresh: true,
-    //   },
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".choco-section",
+        start: "top top",
+        end: "74% center",
+        scrub: true,
+        invalidateOnRefresh: true,
+      },
     });
 
     pairs.forEach(({ choco, card }) => {
