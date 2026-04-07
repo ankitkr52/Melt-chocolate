@@ -15,16 +15,16 @@ import { SplitText } from "gsap/SplitText";
 
 gsap.registerPlugin(SplitText);
 
-// const HeroChocolates = ({ activeFlavor }) => {
+const HeroChocolates = ({ activeFlavor }) => {
 
-//   useGSAP(() => { 
+  useGSAP(() => { 
 
-//     gsap.from('.caremel-choco', {
-//       y: "60%",
-//       scale: 0.8,
-//       duration: 1,
-//       ease: "power3.out",
-//     });
+    gsap.from('.caremel-choco', {
+      y: "60%",
+      scale: 0.8,
+      duration: 1,
+      ease: "power3.out",
+    });
 
     gsap.from('.cocoa-choco', {
       y: "40%",
